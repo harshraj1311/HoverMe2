@@ -1,0 +1,49 @@
+section div {
+    background-color: cyan;
+    border: 3px solid black;
+    margin: 50px auto;
+    width: 200px;
+    height: 50px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in; */
+    /* /* float: centre; */
+    float: inherit;
+   
+}
+
+
+
+h1{
+    text-align: center;
+    
+
+}
+
+
+
+div:hover{
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+
+   
+}
+
+
+
+
+.first{
+    float: left;
+}
+
+.second{
+    float: right;
+}
+
+.first:hover{
+    filter: grayscale();
+}
+
+.second:hover{
+    filter: grayscale();
+}
